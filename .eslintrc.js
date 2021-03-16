@@ -24,5 +24,11 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': 'off',
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
   },
 };
